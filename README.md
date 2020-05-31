@@ -25,7 +25,7 @@ $ npm start
 ```
 3000 is the default application port
 
-## Example screens
+## Images
 ![Login](/example_screens/login.png)
 ![Sign up](/example_screens/signup.png)
 ![User editing opinions](/example_screens/user_opinions_edit.png)
