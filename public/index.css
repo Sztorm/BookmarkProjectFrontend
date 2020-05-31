@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column-rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: auto;
+}
+
+textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  overflow: auto;
+}
+
+input[type=text], input[type=password], select {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input[type=submit] {
+  display: flex;
+  justify-content: center;
+  background-color: #353;
+  color: #eee;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-container {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  min-height: 100%;
+  overflow: auto;
+  background-color: #00000044;
+}
+
+.flex-col-70 {
+  display: flex;
+  flex-direction: column;
+  width: min(100%, max(768px, 70%));
+}
+
+.flex-col-60 {
+  display: flex;
+  flex-direction: column;
+  width: min(100%, max(768px, 60%));
+}
+
+.flex-col-50 {
+  display: flex;
+  flex-direction: column;
+  width: min(100%, max(768px, 50%));
+}
+
+.grey-col-trans {
+  color: #aaa !important;
+}
+
+.grey-col-trans:hover {
+  transition: background-color 0.2s ease-out 0s !important;
+  color: #bbb !important;
+}
+
+.grey-col-trans:active {
+  transition: background-color 0s ease-out 0s !important;
+  color: #ccc !important;
+}
+
+.dark-grey-col-trans {
+  color: #555 !important;
+}
+
+.dark-grey-col-trans:hover {
+  transition: background-color 0.2s ease-out 0s !important;
+  color: #444!important;
+}
+
+.dark-grey-col-trans:active {
+  transition: background-color 0s ease-out 0s !important;
+  color: #333 !important;
+}
+
+.green-bc-trans {
+  background-color: #353 !important;
+}
+
+.green-bc-trans:hover {
+  transition: background-color 0.2s ease-out 0s !important;
+  background-color: #363 !important;
+}
+
+.green-bc-trans:active {
+  transition: background-color 0s ease-out 0s !important;
+  background-color: #373 !important;
+}
+
+.clear-bc {
+  background-color: #00000000;
+}
+
+.alpha-to-grey-bc-trans {
+  background: linear-gradient(0deg, #99999944 0%, #99999900 40%, #99999900 100%) !important;
+  background-size: 100% 100%;
+}
+
+.alpha-to-grey-bc-trans:hover {
+  transition: background-size 0.2s ease-out 0s !important;
+  background-size: 100% 70%;
+  background: linear-gradient(0deg, #99999944 0%, #99999900 90% #99999900 100%) !important;
+}
+
+.alpha-to-grey-bc-trans:active {
+  transition: background-size 0s ease-out 0s !important;
+  background-size: 100% 50%;
+  background: linear-gradient(0deg, #99999944 0%, #99999900 100%) !important;;
+}
